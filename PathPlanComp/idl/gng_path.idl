@@ -1,0 +1,10 @@
+// @file Gng_path.idl
+#include "BasicDataType.idl"
+
+struct Gng_path
+{
+  RTC::Time tm;
+  long node_num;
+  sequence<double> node;
+  sequence<long> edge;
+};
