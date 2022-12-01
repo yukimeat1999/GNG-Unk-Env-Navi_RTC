@@ -1,3 +1,3 @@
-set(hdrs FuzzyControl.h
+set(hdrs FuzzyControl.h slam.h controller.h
     PARENT_SCOPE
     )
