@@ -1,4 +1,4 @@
-set(comp_srcs FuzzyControl.cpp )
+set(comp_srcs FuzzyControl.cpp slam.cpp controller.cpp)
 set(standalone_srcs FuzzyControlComp.cpp)
 
 if(${OPENRTM_VERSION_MAJOR} LESS 2)
