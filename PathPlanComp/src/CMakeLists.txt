@@ -1,4 +1,4 @@
-set(comp_srcs PathPlanComp.cpp )
+set(comp_srcs PathPlanComp.cpp slam.cpp gng.cpp random.cpp)
 set(standalone_srcs PathPlanCompComp.cpp)
 
 find_package(OpenCV REQUIRED)
