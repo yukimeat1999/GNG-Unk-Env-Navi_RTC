@@ -1,4 +1,4 @@
-set(comp_srcs Localization.cpp )
+set(comp_srcs Localization.cpp slam.cpp random.cpp)
 set(standalone_srcs LocalizationComp.cpp)
 
 if(${OPENRTM_VERSION_MAJOR} LESS 2)
