@@ -1,4 +1,4 @@
-set(comp_srcs Roomba_OutPort.cpp )
+set(comp_srcs Roomba_OutPort.cpp Serial.cpp)
 set(standalone_srcs Roomba_OutPortComp.cpp)
 
 if(${OPENRTM_VERSION_MAJOR} LESS 2)
