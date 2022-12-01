@@ -1,4 +1,4 @@
-set(comp_srcs GNG_component.cpp )
+set(comp_srcs GNG_component.cpp gng.cpp random.cpp malloc.c)
 set(standalone_srcs GNG_componentComp.cpp)
 
 find_package(OpenCV REQUIRED)
