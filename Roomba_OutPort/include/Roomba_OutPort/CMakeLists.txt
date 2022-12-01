@@ -1,3 +1,3 @@
-set(hdrs Roomba_OutPort.h
+set(hdrs Roomba_OutPort.h Serial.h
     PARENT_SCOPE
     )
